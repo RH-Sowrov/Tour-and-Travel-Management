@@ -1,0 +1,121 @@
+{
+  "userName": "admin",
+  "password": "12345",
+  "role": "Admin"
+}
+
+
+
+
+Promotions
+
+
+{
+  "code": "PM-01",
+  "description": "Eid-Ul-Fitr 2025",
+  "discount": 20
+}
+
+{
+  "code": "PM-02",
+  "description": "Eid-Ul-Adha 2025",
+  "discount": 25
+}
+
+
+
+
+TourHotels
+
+{
+  "hotelName": "Ruposhi Bangla Hotel",
+  "location": "Dhaka, Bangladesh",
+  "rating": 4.2,
+  "description": "Ruposhi Bangla Hotel, located in the heart of Dhaka.",
+  "pricePerNight": 3000
+}
+
+{
+  "hotelName": "Sundarbans Resort",
+  "location": "Khulna, Bangladesh",
+  "rating": 4.0,
+  "description": "Sundarbans Resort offers a serene escape amidst the lush greenery of Khulna.",
+  "pricePerNight": 1500
+}
+
+
+
+
+TourFoods
+
+
+{
+  "name": "Bengali Fish Curry",
+  "type": "Lunch",
+  "description": "Savor the rich flavors of Bengal with our authentic Bengali Fish Curry.",
+  "price": 150
+}
+
+
+{
+  "name": "Chicken Biryani",
+  "type": "Dinner",
+  "description": "Indulge in the aromatic flavors of our Chicken Biryani.",
+  "price": 180
+}
+
+{
+  "name": "French Toast",
+  "type": "Breakfast",
+  "description": "Indulge in a classic breakfast favorite with our French Toast.",
+  "price": 100
+}
+
+
+TourTransports
+
+{
+  "tourTransportName": "Dhaka-Chattogram Express Bus",
+  "date": "2024-06-20",
+  "totalSeat": 30,
+  "rentPerPerson": 500
+}
+
+{
+  "tourTransportName": "Green Line Paribahan",
+  "date": "2024-04-22",
+  "totalSeat": 25,
+  "rentPerPerson": 600
+}
+
+
+
+
+TourGuide
+Md Kamran
+
+
+
+TourPackages
+
+{
+  "tourTransportId": 1,
+  "tourHotelId": 1,
+  "tourFoodId": 1,
+  "tourGuideId": 1
+}
+
+
+Tours
+
+{
+  "tourName": "Tour-PK-01",
+  "destination": "Sylhet",
+  "duration": 8,
+  "departureTime": "2024-06-25T10:17:24.522Z",
+  "arrivalTime": "2024-06-25T18:17:24.522Z",
+  "description": "Dhaka to Sylhet",
+  "price": 4000,
+  "promotionId": 1,
+  "tourPackageId": 1
+}
